@@ -1,0 +1,9 @@
+sklearn
+numpy==1.19.5
+matplotlib==3.3.4
+tensorflow==2.4.1
+tqdm==4.60.0
+opencv-python==4.5.1.48
+tensorflow==2.4.1
+pydot==1.4.2
+graphviz==0.16
