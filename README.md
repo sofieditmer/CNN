@@ -68,7 +68,7 @@ The LeNet model was trained on the full dataset as well as the augmented, artifi
 When assessing the loss and accuracy learning curves of the model, it is evident that the model needs more data to be able to increase its performance (see [Loss/Accuracy Plot](https://github.com/sofieditmer/cnn/blob/main/output/model_loss_accuracy_history.png)). The training and validation accuracy curves steadily increase, but reaches a plateau around 12 epochs, where they are no longer able to learn more from the data. Similarly, the training and validation loss curves steadily decrease, suggesting that the model is learning from the data, but these also slowly flatten. All in all, the loss and accuracy learning curves of the model clearly suggest that increasing the amount of data would benefit the model performance. I tried to address this problem by implementing data augmentation, but this only increased the performance slightly. The problem with data augmentation is the validity of the artificial data being produced, and since I did not want to create data that the model would never encounter, I only increased the training data to a limited extent. The most optimal would be to gather more real-world data to inform the model.
 
 ### License <br>
-This project is licensed under the MIT License - see the [LICENSE](https://github.com/sofieditmer/classification/blob/main/LICENSE) file for details.
+This project is licensed under the MIT License - see the [LICENSE](https://github.com/sofieditmer/cnn/blob/main/LICENSE) file for details.
 
 ### Contact Details <br>
 If you have any questions feel free to contact me on [201805308@post.au.dk](201805308@post.au.dk)
